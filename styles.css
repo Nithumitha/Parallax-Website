@@ -70,3 +70,10 @@ section{
 	background-attachment: fixed;
 	border-radius: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*=""] {
+    width: 100%;
+  }
+}
